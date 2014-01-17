@@ -35,6 +35,9 @@ DESCRIPTION
 Allows calls from erlang using message passing towards a specific java
 class/service...
 
+Building:
+$> javac -classpath ".:/usr/lib/erlang/lib/jinterface-1.5.8/priv/OtpErlang.jar:/usr/local/lib/erlang/lib/jinterface-1.4.2/priv/OtpErlang.jar" ErlCallNode.java
+
 Example of launcher:
 ErlCallNode foo@server service erlang
 
